@@ -11,6 +11,8 @@
 		189D7B81264FB5440044CE9E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189D7B80264FB5440044CE9E /* ContentView.swift */; };
 		189D7B83264FB5470044CE9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189D7B82264FB5470044CE9E /* Assets.xcassets */; };
 		189D7B86264FB5470044CE9E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189D7B85264FB5470044CE9E /* Preview Assets.xcassets */; };
+		189D7B8E264FC8E50044CE9E /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189D7B8D264FC8E50044CE9E /* LocationManager.swift */; };
+		189D7B90264FCE590044CE9E /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189D7B8F264FCE590044CE9E /* BluetoothManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		189D7B82264FB5470044CE9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		189D7B85264FB5470044CE9E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		189D7B87264FB5470044CE9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189D7B8D264FC8E50044CE9E /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		189D7B8F264FCE590044CE9E /* BluetoothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				189D7B82264FB5470044CE9E /* Assets.xcassets */,
 				189D7B87264FB5470044CE9E /* Info.plist */,
 				189D7B84264FB5470044CE9E /* Preview Content */,
+				189D7B8D264FC8E50044CE9E /* LocationManager.swift */,
+				189D7B8F264FCE590044CE9E /* BluetoothManager.swift */,
 			);
 			path = "Pixel Finder";
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 			files = (
 				189D7B81264FB5440044CE9E /* ContentView.swift in Sources */,
 				189D7B7F264FB5440044CE9E /* Pixel_FinderApp.swift in Sources */,
+				189D7B90264FCE590044CE9E /* BluetoothManager.swift in Sources */,
+				189D7B8E264FC8E50044CE9E /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +273,7 @@
 		189D7B8B264FB5470044CE9E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +296,7 @@
 		189D7B8C264FB5470044CE9E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
